@@ -1,0 +1,1799 @@
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2146 */
+.x-tab-icon-left > .x-tab-icon-el-managementlighttabpanel,
+.x-tab-icon-right > .x-tab-icon-el-managementlighttabpanel {
+    width: 20px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2151 */
+.x-tab-icon-top > .x-tab-icon-el-managementlighttabpanel,
+.x-tab-icon-bottom > .x-tab-icon-el-managementlighttabpanel {
+    min-width: 20px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2162 */
+.x-tab-bar-plain .x-tab-icon-el-managementlighttabpanel {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2167 */
+.x-tab-icon-el-managementlighttabpanel.x-tab-glyph {
+    opacity: 0.7;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2187 */
+.x-tab-text.x-tab-icon-left > .x-tab-icon-el-managementlighttabpanel {
+    margin-right: 6px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2198 */
+.x-tab-text.x-tab-icon-right > .x-tab-icon-el-managementlighttabpanel {
+    margin-left: 6px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2209 */
+.x-tab-text.x-tab-icon-top > .x-tab-icon-el-managementlighttabpanel {
+    margin-bottom: 6px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2213 */
+.x-tab-text.x-tab-icon-bottom > .x-tab-icon-el-managementlighttabpanel {
+    margin-top: 6px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
+.x-tab-focus.x-tab-managementlighttabpanel {
+    border-color: #ddd #ddd #ca7705 #ddd;
+    background-color: transparent;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2314 */
+.x-tab-bar-plain .x-tab-focus.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2346 */
+.x-tab-bar-plain .x-tab-focus.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
+.x-tab-over.x-tab-managementlighttabpanel {
+    border-color: #ddd #ddd #ca7705 #ddd;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
+.x-ie8 .x-tab-over.x-tab-managementlighttabpanel {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0a000000, endColorstr=#0a000000)";
+    zoom: 1;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2383 */
+.x-ie8 .x-tab-over.x-tab-managementlighttabpanel.x-tab-rotate-left {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2389 */
+.x-ie8 .x-tab-over.x-tab-managementlighttabpanel.x-tab-rotate-right {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2415 */
+.x-tab-bar-plain .x-tab-over.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2446 */
+.x-tab-bar-plain .x-tab-over.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
+.x-tab-focus.x-tab-over.x-tab-managementlighttabpanel {
+    border-color: #ddd #ddd #ca7705 #ddd;
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
+.x-ie8 .x-tab-focus.x-tab-over.x-tab-managementlighttabpanel {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
+    zoom: 1;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2495 */
+.x-ie8 .x-tab-focus.x-tab-over.x-tab-managementlighttabpanel.x-tab-rotate-left {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2501 */
+.x-ie8 .x-tab-focus.x-tab-over.x-tab-managementlighttabpanel.x-tab-rotate-right {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2527 */
+.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2558 */
+.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
+.x-tab.x-tab-active.x-tab-managementlighttabpanel {
+    border-color: #ca7705 #ca7705 #fff #ca7705;
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
+.x-ie8 .x-tab.x-tab-active.x-tab-managementlighttabpanel {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#0fffffff, endColorstr=#0fffffff)";
+    zoom: 1;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2610 */
+.x-ie8 .x-tab.x-tab-active.x-tab-managementlighttabpanel.x-tab-rotate-left {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2616 */
+.x-ie8 .x-tab.x-tab-active.x-tab-managementlighttabpanel.x-tab-rotate-right {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
+.x-tab.x-tab-active.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #ca7705;
+    font-weight: bold;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2642 */
+.x-tab-bar-plain .x-tab.x-tab-active.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #30373d;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2657 */
+.x-tab.x-tab-active.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2665 */
+.x-ie8 .x-tab.x-tab-active.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #daa050;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2671 */
+.x-tab-bar-plain .x-tab.x-tab-active.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #30373d;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
+.x-tab-focus.x-tab-active.x-tab-managementlighttabpanel {
+    border-color: #ca7705 #ca7705 #fff #ca7705;
+    background-color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2753 */
+.x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #30373d;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2784 */
+.x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #30373d;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
+.x-tab.x-tab-disabled.x-tab-managementlighttabpanel {
+    border-color: #ddd #ddd #ca7705 #ddd;
+    background-color: transparent;
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2868 */
+.x-tab.x-tab-disabled.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #989b9e;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2873 */
+.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-managementlighttabpanel .x-tab-inner-managementlighttabpanel {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2892 */
+.x-tab.x-tab-disabled.x-tab-managementlighttabpanel .x-tab-icon-el-managementlighttabpanel {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2897 */
+.x-tab.x-tab-disabled.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #c1c3c5;
+    opacity: 0.3;
+    filter: none;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2918 */
+.x-tab-bar-plain .x-tab.x-tab-disabled.x-tab-managementlighttabpanel .x-tab-icon-el {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2938 */
+.x-nbr .x-tab-managementlighttabpanel {
+    background-image: none;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-over .x-tab-managementlighttabpanel-top-tl,
+.x-tab-over .x-tab-managementlighttabpanel-top-bl,
+.x-tab-over .x-tab-managementlighttabpanel-top-tr,
+.x-tab-over .x-tab-managementlighttabpanel-top-br,
+.x-tab-over .x-tab-managementlighttabpanel-top-tc,
+.x-tab-over .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-over .x-tab-managementlighttabpanel-top-ml,
+.x-tab-over .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-over .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus .x-tab-managementlighttabpanel-top-tl,
+.x-tab-focus .x-tab-managementlighttabpanel-top-bl,
+.x-tab-focus .x-tab-managementlighttabpanel-top-tr,
+.x-tab-focus .x-tab-managementlighttabpanel-top-br,
+.x-tab-focus .x-tab-managementlighttabpanel-top-tc,
+.x-tab-focus .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus .x-tab-managementlighttabpanel-top-ml,
+.x-tab-focus .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-tl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-bl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-tr,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-br,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-tc,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-ml,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-tl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-bl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-tr,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-br,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-tc,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-ml,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-tl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-bl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-tr,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-br,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-tc,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-ml,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-focus-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-tl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-bl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-tr,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-br,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-tc,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-disabled-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-ml,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-top-disabled-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-top-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-top-disabled-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-over .x-tab-managementlighttabpanel-right-tl,
+.x-tab-over .x-tab-managementlighttabpanel-right-bl,
+.x-tab-over .x-tab-managementlighttabpanel-right-tr,
+.x-tab-over .x-tab-managementlighttabpanel-right-br,
+.x-tab-over .x-tab-managementlighttabpanel-right-tc,
+.x-tab-over .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-over .x-tab-managementlighttabpanel-right-ml,
+.x-tab-over .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-over .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus .x-tab-managementlighttabpanel-right-tl,
+.x-tab-focus .x-tab-managementlighttabpanel-right-bl,
+.x-tab-focus .x-tab-managementlighttabpanel-right-tr,
+.x-tab-focus .x-tab-managementlighttabpanel-right-br,
+.x-tab-focus .x-tab-managementlighttabpanel-right-tc,
+.x-tab-focus .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus .x-tab-managementlighttabpanel-right-ml,
+.x-tab-focus .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-tl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-bl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-tr,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-br,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-tc,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-ml,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-tl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-bl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-tr,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-br,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-tc,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-ml,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-tl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-bl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-tr,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-br,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-tc,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-ml,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-focus-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-tl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-bl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-tr,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-br,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-tc,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-disabled-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-ml,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-right-disabled-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-right-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-right-disabled-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-over .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-br,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-over .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab-over .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-over .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-br,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-br,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-br,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-br,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-focus-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-tl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-bl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-tr,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-br,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-tc,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-disabled-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-ml,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-disabled-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-bottom-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-bottom-disabled-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-over .x-tab-managementlighttabpanel-left-tl,
+.x-tab-over .x-tab-managementlighttabpanel-left-bl,
+.x-tab-over .x-tab-managementlighttabpanel-left-tr,
+.x-tab-over .x-tab-managementlighttabpanel-left-br,
+.x-tab-over .x-tab-managementlighttabpanel-left-tc,
+.x-tab-over .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-over .x-tab-managementlighttabpanel-left-ml,
+.x-tab-over .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-over .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus .x-tab-managementlighttabpanel-left-tl,
+.x-tab-focus .x-tab-managementlighttabpanel-left-bl,
+.x-tab-focus .x-tab-managementlighttabpanel-left-tr,
+.x-tab-focus .x-tab-managementlighttabpanel-left-br,
+.x-tab-focus .x-tab-managementlighttabpanel-left-tc,
+.x-tab-focus .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus .x-tab-managementlighttabpanel-left-ml,
+.x-tab-focus .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-tl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-bl,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-tr,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-br,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-tc,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-over-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-ml,
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-over-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-over .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-over-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-tl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-bl,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-tr,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-br,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-tc,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-ml,
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-active .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-tl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-bl,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-tr,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-br,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-tc,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-active-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-ml,
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-active-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab-focus.x-tab-active .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-focus-active-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-tl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-bl,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-tr,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-br,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-tc,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-bc {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-disabled-corners.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-ml,
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-mr {
+    background-image: url(images/tab/tab-managementlighttabpanel-left-disabled-sides.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
+.x-tab.x-tab-disabled .x-tab-managementlighttabpanel-left-mc {
+    background-repeat: repeat-x;
+    background-image: url(images/tab/tab-managementlighttabpanel-left-disabled-fbg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2981 */
+.x-tab-managementlighttabpanel-tl,
+.x-tab-managementlighttabpanel-bl,
+.x-tab-managementlighttabpanel-tr,
+.x-tab-managementlighttabpanel-br {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2991 */
+.x-tab-managementlighttabpanel .x-tab-close-btn {
+    top: 0;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    font: 12px/1 FontAwesome;
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-tab-managementlighttabpanel .x-tab-close-btn:before {
+    content: "\f00d";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3001 */
+.x-tab-bar-plain .x-tab-managementlighttabpanel .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3013 */
+.x-tab-managementlighttabpanel .x-tab-close-btn-over {
+    background-position: -16px 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3023 */
+.x-tab-managementlighttabpanel .x-tab-close-btn-pressed {
+    background-position: -32px 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3030 */
+.x-tab-managementlighttabpanel.x-tab-focus .x-tab-close-btn {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3034 */
+.x-tab-bar-plain .x-tab-managementlighttabpanel.x-tab-focus .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3044 */
+.x-tab-managementlighttabpanel.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3048 */
+.x-tab-bar-plain .x-tab-managementlighttabpanel.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3058 */
+.x-tab-managementlighttabpanel.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3062 */
+.x-tab-bar-plain .x-tab-managementlighttabpanel.x-tab-focus.x-tab-over .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3072 */
+.x-tab-managementlighttabpanel.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3102 */
+.x-tab-managementlighttabpanel.x-tab-focus.x-tab-active .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3115 */
+.x-tab-managementlighttabpanel.x-tab-disabled .x-tab-close-btn {
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    opacity: 0.3;
+    background-position: 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3120 */
+.x-tab-bar-plain .x-tab-managementlighttabpanel.x-tab-disabled .x-tab-close-btn {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Tab.scss:3142 */
+.x-tab-closable.x-tab-managementlighttabpanel .x-tab-button {
+    padding-right: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-focus-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-focus-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-focus-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-focus-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-focus-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-focus-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-focus-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-focus-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-focus-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-focus-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-focus-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-over-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-over-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-over-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-over.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-over-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-active-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-active-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-active-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-active.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-active-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-focus-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-focus-over-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-focus-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-focus-over-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-focus-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-focus-over-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-focus-over-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-focus-over-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-focus-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-focus-active-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-focus-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-focus-active-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-focus-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-focus-active-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-focus-active-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-focus-active-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-top-disabled-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-top-disabled-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-top-disabled-fbg.gif), frame:1px 1px 1px 1px, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-right-disabled-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-right-disabled-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-right-disabled-fbg.gif), frame:1px 1px 1px 1px, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-bottom-disabled-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-bottom-disabled-fbg.gif), frame:1px 1px 1px 1px, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-disabled.x-tab-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, corners:url(images/tab/tab-managementlighttabpanel-left-disabled-corners.gif), sides:url(images/tab/tab-managementlighttabpanel-left-disabled-sides.gif), frame-bg:url(images/tab/tab-managementlighttabpanel-left-disabled-fbg.gif), frame:1px 1px 1px 1px, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
+.x-tab-bar-managementlighttabpanel {
+    background-color: #fff;
+    border-style: solid;
+    border-color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:177 */
+.x-tab-bar-managementlighttabpanel-top {
+    border-width: 0 0 1px 0 !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:181 */
+.x-tab-bar-managementlighttabpanel-bottom {
+    border-width: 1px 0 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:185 */
+.x-tab-bar-managementlighttabpanel-left {
+    border-width: 0 1px 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:195 */
+.x-tab-bar-managementlighttabpanel-right {
+    border-width: 0 0 0 1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:207 */
+.x-tab-bar-managementlighttabpanel-top > .x-tab-bar-body-managementlighttabpanel {
+    padding: 8px 4px 0 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:211 */
+.x-tab-bar-managementlighttabpanel-bottom > .x-tab-bar-body-managementlighttabpanel {
+    padding: 0 4px 8px 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:215 */
+.x-tab-bar-managementlighttabpanel-left > .x-tab-bar-body-managementlighttabpanel {
+    padding: 4px 0 8px 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:225 */
+.x-tab-bar-managementlighttabpanel-right > .x-tab-bar-body-managementlighttabpanel {
+    padding: 8px 8px 4px 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:238 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-top > .x-tab-bar-body-managementlighttabpanel {
+    padding: 8px 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:242 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-bottom > .x-tab-bar-body-managementlighttabpanel {
+    padding: 0 0 8px 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:246 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-left > .x-tab-bar-body-managementlighttabpanel {
+    padding: 0 0 0 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:256 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-right > .x-tab-bar-body-managementlighttabpanel {
+    padding: 0 8px 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:269 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-horizontal {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:276 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-vertical {
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:390 */
+.x-tab-bar-horizontal > .x-tab-bar-body-managementlighttabpanel {
+    min-height: 38px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:393 */
+.x-ie8m .x-tab-bar-horizontal > .x-tab-bar-body-managementlighttabpanel {
+    min-height: 30px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:400 */
+.x-tab-bar-vertical > .x-tab-bar-body-managementlighttabpanel {
+    min-width: 38px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:403 */
+.x-ie8m .x-tab-bar-vertical > .x-tab-bar-body-managementlighttabpanel {
+    min-width: 30px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:170 */
+.x-tab-bar-managementlighttabpanel-scroller .x-box-scroller-body-horizontal {
+    margin-left: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:183 */
+.x-tab-bar-managementlighttabpanel-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:188 */
+.x-box-scroller-tab-bar-managementlighttabpanel {
+    cursor: pointer;
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:198 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    opacity: 0.6;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:204 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-pressed {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:210 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    opacity: 0.25;
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:220 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-left,
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-right {
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    margin-top: -12px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:247 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-left {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-left:before {
+    content: "\f053";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:272 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-right {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-right:before {
+    content: "\f054";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:299 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-top,
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-bottom {
+    height: 24px;
+    width: 24px;
+    left: 50%;
+    margin-left: -12px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:326 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-top {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-top:before {
+    content: "\f077";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:351 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-bottom {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font: 16px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-tab-bar-managementlighttabpanel.x-box-scroller-bottom:before {
+    content: "\f078";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:483 */
+.x-tab-bar-more-icon {
+    font: 16px/1 FontAwesome;
+    color: #f0f0f0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-tab-bar-more-icon:before {
+    content: "\f0c9";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:500 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-scroller .x-box-scroller-body-horizontal {
+    margin-left: 24px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:506 */
+.x-tab-bar-plain.x-tab-bar-managementlighttabpanel-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:511 */
+.x-tab-bar-plain .x-box-scroller-tab-bar-managementlighttabpanel {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:559 */
+.x-tab-bar-managementlighttabpanel-top .x-box-scroller-tab-bar-managementlighttabpanel {
+    margin-top: -8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:563 */
+.x-tab-bar-managementlighttabpanel-right .x-box-scroller-tab-bar-managementlighttabpanel {
+    margin-left: -16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:567 */
+.x-tab-bar-managementlighttabpanel-bottom .x-box-scroller-tab-bar-managementlighttabpanel {
+    margin-top: -16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:571 */
+.x-tab-bar-managementlighttabpanel-left .x-box-scroller-tab-bar-managementlighttabpanel {
+    margin-left: -8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:580 */
+.x-box-scroller-tab-bar-managementlighttabpanel {
+    background-color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/tab/Bar.scss:586 */
+.x-box-scroller-tab-bar-managementlighttabpanel .x-ie8 .x-box-scroller-plain {
+    background-color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-tab-bar-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
+.x-panel-managementlighttabpanel {
+    border-color: #ca7705;
+    padding: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
+.x-panel-header-managementlighttabpanel {
+    font-size: 16px;
+    border: 1px solid #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:307 */
+.x-panel-header-managementlighttabpanel .x-tool-tool-el {
+    background-color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
+.x-panel-header-managementlighttabpanel-horizontal {
+    padding: 8px 12px 9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:317 */
+.x-panel-header-managementlighttabpanel-horizontal .x-panel-header-managementlighttabpanel-tab-bar {
+    margin-top: -8px;
+    margin-bottom: -9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:325 */
+.x-panel-header-managementlighttabpanel-horizontal.x-header-noborder {
+    padding: 9px 13px 9px 13px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:329 */
+.x-panel-header-managementlighttabpanel-horizontal.x-header-noborder .x-panel-header-managementlighttabpanel-tab-bar {
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:337 */
+.x-panel-header-managementlighttabpanel-vertical {
+    padding: 12px 8px 12px 9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:341 */
+.x-panel-header-managementlighttabpanel-vertical .x-panel-header-managementlighttabpanel-tab-bar {
+    margin-right: -8px;
+    margin-left: -9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:349 */
+.x-panel-header-managementlighttabpanel-vertical.x-header-noborder {
+    padding: 13px 9px 13px 9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:353 */
+.x-panel-header-managementlighttabpanel-vertical.x-header-noborder .x-panel-header-managementlighttabpanel-tab-bar {
+    margin-right: -9px;
+    margin-left: -9px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:387 */
+.x-panel-header-title-managementlighttabpanel {
+    color: #f0f0f0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    line-height: 20px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:400 */
+.x-panel-header-title-managementlighttabpanel > .x-title-text-managementlighttabpanel {
+    text-transform: none;
+    padding: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:447 */
+.x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel.x-title-icon-top {
+    height: 24px;
+    padding-bottom: 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:452 */
+.x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel.x-title-icon-right {
+    width: 24px;
+    padding-left: 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:464 */
+.x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel.x-title-icon-bottom {
+    height: 24px;
+    padding-top: 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:469 */
+.x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel.x-title-icon-left {
+    width: 24px;
+    padding-right: 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:481 */
+.x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel > .x-title-icon-managementlighttabpanel {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    color: #f0f0f0;
+    background-position: center center;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:501 */
+.x-ie8 .x-panel-header-title-managementlighttabpanel > .x-title-icon-wrap-managementlighttabpanel > .x-title-icon-managementlighttabpanel.x-title-glyph {
+    color: #f0f0f0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:512 */
+.x-panel-body-managementlighttabpanel {
+    background: #fff;
+    border-color: #d0d0d0;
+    color: #30373d;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    border-width: 1px;
+    border-style: solid;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:676 */
+.x-panel-header-managementlighttabpanel {
+    background-image: none;
+    background-color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:680 */
+.x-panel-header-managementlighttabpanel-vertical {
+    background-image: none;
+    background-color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:738 */
+.x-panel .x-panel-header-managementlighttabpanel-collapsed-border-top {
+    border-bottom-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:742 */
+.x-panel .x-panel-header-managementlighttabpanel-collapsed-border-right {
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:746 */
+.x-panel .x-panel-header-managementlighttabpanel-collapsed-border-bottom {
+    border-top-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:750 */
+.x-panel .x-panel-header-managementlighttabpanel-collapsed-border-left {
+    border-right-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-managementlighttabpanel-top:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:bottom" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-managementlighttabpanel-bottom:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:top" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-managementlighttabpanel-left:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:right" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
+.x-cmd-slicer.x-panel-header-managementlighttabpanel-right:before {
+    /*<if slicer>*/
+    display: none;
+    content: "x-slicer:, stretch:left" !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:786 */
+.x-panel-header-managementlighttabpanel-horizontal .x-tool-after-title {
+    margin: 0 0 0 6px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:796 */
+.x-panel-header-managementlighttabpanel-horizontal .x-tool-before-title {
+    margin: 0 6px 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:808 */
+.x-panel-header-managementlighttabpanel-vertical .x-tool-after-title {
+    margin: 6px 0 0 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:818 */
+.x-panel-header-managementlighttabpanel-vertical .x-tool-before-title {
+    margin: 0 0 6px 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:830 */
+.x-panel-header-managementlighttabpanel .x-tool-focus {
+    outline: 1px solid #fff;
+    outline-offset: 1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
+.x-ie .x-panel-header-managementlighttabpanel .x-tool-focus,
+.x-ie10p .x-panel-header-managementlighttabpanel .x-tool-focus,
+.x-edge .x-panel-header-managementlighttabpanel .x-tool-focus {
+    outline: none;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:40 */
+.x-ie .x-panel-header-managementlighttabpanel .x-tool-focus:after,
+.x-ie10p .x-panel-header-managementlighttabpanel .x-tool-focus:after,
+.x-edge .x-panel-header-managementlighttabpanel .x-tool-focus:after {
+    position: absolute;
+    content: ' ';
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    border: 1px solid #fff;
+    pointer-events: none;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/panel/Panel.scss:859 */
+.x-panel-managementlighttabpanel-resizable .x-panel-handle {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    opacity: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
+.x-panel-managementlighttabpanel-outer-border-l {
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
+.x-panel-managementlighttabpanel-outer-border-b {
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
+.x-panel-managementlighttabpanel-outer-border-bl {
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
+.x-panel-managementlighttabpanel-outer-border-r {
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
+.x-panel-managementlighttabpanel-outer-border-rl {
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
+.x-panel-managementlighttabpanel-outer-border-rb {
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
+.x-panel-managementlighttabpanel-outer-border-rbl {
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
+.x-panel-managementlighttabpanel-outer-border-t {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
+.x-panel-managementlighttabpanel-outer-border-tl {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
+.x-panel-managementlighttabpanel-outer-border-tb {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
+.x-panel-managementlighttabpanel-outer-border-tbl {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
+.x-panel-managementlighttabpanel-outer-border-tr {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
+.x-panel-managementlighttabpanel-outer-border-trl {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+    border-left-color: #ca7705 !important;
+    border-left-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
+.x-panel-managementlighttabpanel-outer-border-trb {
+    border-top-color: #ca7705 !important;
+    border-top-width: 1px !important;
+    border-right-color: #ca7705 !important;
+    border-right-width: 1px !important;
+    border-bottom-color: #ca7705 !important;
+    border-bottom-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
+.x-panel-managementlighttabpanel-outer-border-trbl {
+    border-color: #ca7705 !important;
+    border-width: 1px !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:163 */
+.tabbarwithtools .x-tab-bar .management-tool {
+    /**
+* Tab panel with tools
+*/
+    margin: 10px 4px auto 4px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:319 */
+.x-menu-actionmenu {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0d0d0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:325 */
+.x-menu-body-actionmenu {
+    background: #fff;
+    padding: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:330 */
+.x-menu-icon-separator-actionmenu {
+    left: 32px;
+    border-left: solid 1px #d0d0d0;
+    background-color: #fff;
+    width: 1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:344 */
+.x-menu-item-actionmenu {
+    border-width: 0;
+    cursor: pointer;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:350 */
+.x-menu-item-actionmenu.x-menu-item-focus,
+.x-menu-item-actionmenu.x-menu-item-active {
+    background-image: none;
+    background-color: #005ca9;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:363 */
+.x-nlg .x-menu-item-actionmenu.x-menu-item-focus,
+.x-nlg .x-menu-item-actionmenu.x-menu-item-active {
+    background: #005ca9 repeat-x left top;
+    background-image: url(images/menu/menu-item-actionmenu-active-bg.gif);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:370 */
+.x-menu-item-actionmenu.x-menu-item-disabled {
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:373 */
+.x-menu-item-actionmenu.x-menu-item-disabled a {
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:378 */
+.x-menu-item-actionmenu.x-menu-item-separator {
+    height: 1px;
+    border-top: solid 1px #d0d0d0;
+    background-color: #fff;
+    margin: 2px 0;
+    padding: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:386 */
+.x-menu-item-actionmenu.x-menu-item-disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:391 */
+.x-ie9m .x-menu-item-actionmenu.x-menu-item-disabled .x-menu-item-icon-ui {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:395 */
+.x-ie9m .x-menu-item-actionmenu.x-menu-item-disabled .x-menu-item-text-actionmenu {
+    background-color: transparent;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:405 */
+.x-menu-item-actionmenu .x-form-item-label {
+    font-size: 13px;
+    color: #000;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:412 */
+.x-menu-item-text-actionmenu,
+.x-menu-item-cmp-actionmenu {
+    margin: 0 8px 0 8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:417 */
+.x-menu-item-text-actionmenu {
+    font: 400 13px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
+    line-height: 31px;
+    padding-top: 1px;
+    color: #000;
+    cursor: pointer;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:429 */
+.x-menu-item-focus .x-menu-item-text-actionmenu,
+.x-menu-item-active .x-menu-item-text-actionmenu {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:435 */
+.x-menu-item-text-actionmenu.x-menu-item-indent {
+    margin-left: 41px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:439 */
+.x-menu-item-text-actionmenu.x-menu-item-indent-no-separator {
+    margin-left: 36px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:443 */
+.x-menu-item-text-actionmenu.x-menu-item-indent-right-icon {
+    margin-right: 40px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:447 */
+.x-menu-item-text-actionmenu.x-menu-item-indent-right-arrow {
+    margin-right: 29px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:451 */
+.x-menu-item-disabled .x-menu-item-text-actionmenu {
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:483 */
+.x-menu-item-indent-actionmenu {
+    margin-left: 41px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:493 */
+.x-menu-item-icon-actionmenu {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    left: 4px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #005ca9;
+    background-position: center center;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:502 */
+.x-menu-item-focus .x-menu-item-icon-actionmenu,
+.x-menu-item-active .x-menu-item-icon-actionmenu {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:509 */
+.x-ie8 .x-menu-item-focus .x-menu-item-icon-actionmenu,
+.x-ie8 .x-menu-item-active .x-menu-item-icon-actionmenu {
+    color: #fff !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:542 */
+.x-ie8 .x-menu-item-icon-actionmenu.x-menu-item-glyph {
+    color: #005ca9;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:550 */
+.x-menu-item-icon-actionmenu.x-menu-item-icon-right {
+    width: 24px;
+    height: 24px;
+    top: 4px;
+    right: 4px;
+    left: auto;
+    background-position: center center;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:571 */
+.x-menu-item-icon-actionmenu.x-menu-item-checkbox {
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:581 */
+.x-menu-item-focus .x-menu-item-icon-actionmenu.x-menu-item-checkbox,
+.x-menu-item-active .x-menu-item-icon-actionmenu.x-menu-item-checkbox {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:588 */
+.x-menu-item-checked .x-menu-item-icon-actionmenu.x-menu-item-checkbox {
+    font: 18px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-menu-item-checked .x-menu-item-icon-actionmenu.x-menu-item-checkbox:before {
+    content: "\f046";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:596 */
+.x-menu-item-unchecked .x-menu-item-icon-actionmenu.x-menu-item-checkbox {
+    font: 18px/24px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-menu-item-unchecked .x-menu-item-icon-actionmenu.x-menu-item-checkbox:before {
+    content: "\f096";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:611 */
+.x-menu-item-focus .x-menu-item-icon-actionmenu.x-menu-group-icon,
+.x-menu-item-active .x-menu-item-icon-actionmenu.x-menu-group-icon {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:618 */
+.x-menu-item-checked .x-menu-item-icon-actionmenu.x-menu-group-icon {
+    font: 18px/24px FontAwesome;
+    background-image: url(images/menu/actionmenu-group-checked.png);
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-menu-item-checked .x-menu-item-icon-actionmenu.x-menu-group-icon:before {
+    content: "\f00c";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:625 */
+.x-menu-item-unchecked .x-menu-item-icon-actionmenu.x-menu-group-icon {
+    background-image: none;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:630 */
+.x-menu-item-unchecked .x-menu-item-icon-actionmenu.x-menu-group-icon:before {
+    content: '';
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:640 */
+.x-menu-item-arrow-actionmenu {
+    width: 16px;
+    height: 16px;
+    top: 8px;
+    right: 0;
+    margin: 0 4px 0;
+    font: 16px/1 FontAwesome;
+    color: #919191;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-menu-item-arrow-actionmenu:before {
+    content: "\f0da";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:652 */
+.x-menu-item-focus .x-menu-item-arrow-actionmenu,
+.x-menu-item-active .x-menu-item-arrow-actionmenu {
+    color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:661 */
+.x-menu-item-focus .x-menu-item-arrow-actionmenu,
+.x-menu-item-active .x-menu-item-arrow-actionmenu {
+    top: 8px;
+    right: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:170 */
+.x-menu-actionmenu-scroller .x-box-scroller-body-horizontal {
+    margin-left: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:183 */
+.x-menu-actionmenu-vertical-scroller .x-box-scroller-body-vertical {
+    margin-top: 24px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:188 */
+.x-box-scroller-menu-actionmenu {
+    cursor: pointer;
+    color: #919191;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    opacity: 0.5;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:198 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+    opacity: 0.6;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:204 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-pressed {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    opacity: 0.7;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:210 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-disabled {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=25)";
+    opacity: 0.25;
+    cursor: default;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:299 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-top,
+.x-box-scroller-menu-actionmenu.x-box-scroller-bottom {
+    height: 16px;
+    width: 16px;
+    left: 50%;
+    margin-left: -8px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:326 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-top {
+    margin-top: 4px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    font: 16px/16px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-top:before {
+    content: "\f077";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/layout/container/Box.scss:351 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-bottom {
+    margin-top: 4px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    font: 16px/16px FontAwesome;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/etc/mixins/font-icon.scss:126 */
+.x-box-scroller-menu-actionmenu.x-box-scroller-bottom:before {
+    content: "\f078";
+}
+/* /tmp/tmp.rF0JuUsChh/ui/ext/classic/theme-neutral/sass/src/menu/Menu.scss:717 */
+.x-ie8 .x-box-scroller-menu-actionmenu {
+    background-color: #fff;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:176 */
+.x-tab-bar-horizontal.x-tab-bar-managementlighttabpanel-top {
+    margin-bottom: 1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:179 */
+.x-tab-bar-horizontal.x-tab-bar-managementlighttabpanel-top>.x-tab-bar-body-managementlighttabpanel {
+    margin-bottom: -1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:184 */
+.x-panel-body-managementlighttabpanel {
+    margin-top: -1px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:188 */
+.x-box-scroller-tab-bar-managementlighttabpanel {
+    color: #83878b;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:192 */
+.x-panel-managementlighttabpanel .x-fieldset-formpagination,
+.x-sso-fieldset.x-fieldset-formpagination {
+    border-top-color: #ca7705 !important;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:199 */
+.x-panel-managementlighttabpanel .x-fieldset-formpagination .x-fieldset-header-tool-formpagination>.x-tool-toggle {
+    color: #ca7705;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:208 */
+.x-sso-fieldset.x-fieldset-formpagination {
+    /**
+ * SSO fieldset
+ */
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:212 */
+.x-sso-fieldset.x-fieldset-formpagination .x-fieldset-header {
+    margin-left: auto;
+    margin-right: auto;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:219 */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #c4c4c4 #f1f1f1;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:226 */
+.x-panel-bold-header .x-panel-header-title-default,
+.x-panel-bold-header .x-panel-header-title-administration {
+    font-weight: 600;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:234 */
+.x-grid.import-errors-grid .x-panel-header {
+    /** grid header **/
+    background-color: #efefef;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:237 */
+.x-grid.import-errors-grid .x-panel-header .x-panel-header-title-default {
+    color: #606060;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:244 */
+.x-grid-cell.x-numericcell .x-cell-content {
+    text-align: right;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:249 */
+.x-tool-gray .x-tool-tool-el {
+    color: #83878b;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:254 */
+.x-btn-inner-link-small {
+    /** link **/
+    color: #6e7377;
+    line-height: 16px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:259 */
+.unitOfMesure {
+    cursor: default;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:266 */
+.unitOfMesure::before {
+    content: attr(unitOfMesure);
+    margin-right: 7px;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:271 */
+.x-form-item-body.x-html-editor-wrap.x-masked-relative {
+    display: block;
+}
+/* /tmp/tmp.rF0JuUsChh/ui/sass/src/Application.scss:279 */
+.x-ie10p .x-form-item .x-form-item-body-default,
+.x-ie11 .x-form-item .x-form-item-body-default {
+    min-height: 0;
+}

@@ -1,0 +1,448 @@
+
+# list of issues fixed with this release (previous release was 3.3.1)
+
+# commit             date                 issue      message
+
+  c32e3d0ec5    2021-10-13T15:49:36+02:00    6287    bugfix_rest: bugfix in null serialization of idcardcqlselector rest v2 to Fix #6287
+  097c23058b    2021-10-12T14:58:18+02:00    6226    bugfix_uimgt: fix #6226 Relation - Timestamp not parsed
+  e53c1c23f8    2021-10-12T11:24:25+02:00    6226    bugfix_uimgt: fix #6226 Relation - Timestamp not parsed
+  c3fd392762    2021-09-29T17:01:43+02:00    6210    feature_core: add import translation feature, fix #6210
+  57c57ff23d    2021-09-27T14:32:45+02:00    6200    bugfix_core: minor fix for context menu config handling to Fix #6200
+  b337c4e9ed    2021-09-16T12:57:50+02:00    6134    bugfix_uiadm: fix #6134 After configuring tenant in admin UI breaks
+  0d164bf56c    2021-09-15T16:50:37+02:00    6037    bugfix_core: improved performance of fulltext filter query, fix #6037
+  de3b0e3bb4    2021-09-15T10:44:40+02:00    6029    feature_core: improved email template, handle email bean conversion and add wf api for email template, fix #6029
+  27746b65d0    2021-09-10T12:41:08+02:00    6020    bugfix_core: fix menu service, filter inactive reports, dashboard, custom component; fix #6020
+  96971fdd7d    2021-09-10T12:01:05+02:00    6106    improve_core: removed ui/scripts folder from release script to Fix #6106
+  e05aa31907    2021-09-10T10:54:27+02:00    6108    test_core: fixed broken test core to Fix #6108
+  beb992e8f7    2021-09-09T15:41:32+02:00    5001    bugfix_core: fixed relation filtering in geovalues to Fix #5001
+  5938c10b57    2021-09-07T11:11:27+02:00    6082    improv_core: changed default url for bimserver and geoserver to match appliance defaults, fix #6082
+  b0c573bd0d    2021-09-02T10:00:05+02:00    5994    bugfix_core: fixed issue when processing cad entity set with no entity, fix #5994
+  7b191bcebb    2021-08-31T15:02:30+02:00    6032    improv_sql: improved context menu config patch to Fix #6032
+  2c0fbcabb0    2021-08-30T10:17:00+02:00    6001    bugfix_uimgt: fix error on customform widget refresh button to fix #6001
+  4851eafbb2    2021-08-19T11:32:06+02:00    5999    bugfix_code: fix reference processing for email for cross tenant refs, fix #5999
+  dc1ce2417f    2021-08-11T11:14:49+02:00    5926    improv_core: improve eval session, fix #5926
+  ce429b898a    2021-08-09T11:20:46+02:00    5951    fix_core: fixed dwg issue with master card import to Fix #5951
+  d7ccde6659    2021-08-05T11:50:15+02:00    5936    fix_core: deleted bimobjects related to bimproject when removing a project to Fix #5936
+  8ea427d4ca    2021-08-03T09:39:56+02:00    5920    bugfix_uimgt: added theComponent variable into context menu items to fix #5920
+  bf0fab0da6    2021-08-02T15:07:37+02:00    5945    improv_sql: regenerated embedded dumps to Fix #5945
+  d3e0d647b4    2021-08-02T14:35:24+02:00    5953    bugfix_uiadm: fix #5953 Administration - Refresh page after Cancel
+  230c45b8f6    2021-08-02T12:50:47+02:00    5954    bugfix_core: adapted serialization of context menu config as plain map to Fix #5954
+  667569ac85    2021-08-02T11:38:13+02:00    5952    bugfix_uiadm: fix #5952 Translation - Error into config UI
+  db1996a8e8    2021-08-02T11:26:32+02:00    5940    bugfix_uiadm: fix #5940 tasks - can't insert text value on attributes
+  d897b8d66d    2021-07-30T15:51:08+02:00    5920    improv_core: changes config column for Context Menu from text to Jsonb to Fix #5920
+  c0315adf99    2021-07-28T10:37:23+02:00    5915    bugfix_ uiadm: fix #5915 State attribute in administration shows system lookups aswell
+  ed1be6c589    2021-07-27T16:03:26+02:00    5876    bugfix_uimgt: redirect to activity with same subset in process execution to fix #5876
+  b22b31e149    2021-07-26T15:17:23+02:00    5927    bugfix_uiadm: fix #5927 Tasks - can't insert value "7" on "Day of the week" field
+  e2e7047f6e    2021-07-22T16:49:19+02:00    5914    bugfix_uimgt: improve code to fix #5914
+  191ad78123    2021-07-22T16:13:39+02:00    5914    bugfix_uimgt: startworkflow assign values to process attribute through configuration to fix #5914
+  b538295d93    2021-07-22T14:29:26+02:00    5913    bugfix_uimgt: linkCards widget open details on popup to fix #5913
+  ecc666eb46    2021-07-19T18:25:59+02:00    5901    bugfix_uimgt: make configurable the target link name on widgets launcher to fix #5901
+  4d605728b7    2021-07-19T15:44:15+02:00    5889    bugfix_uimgt: fix #5889 linkCards widget doesn't show inline attachments
+  9ddfca286f    2021-07-19T12:13:42+02:00    5872    bugfix_uimgt: manage schedules also for field evaluation with form triggers to fix #5872
+  56b8031df3    2021-07-14T10:48:40+02:00    5888    fix_core: fixed issue with SMTP configuration with ssl to Fix #5888
+  fb42536718    2021-07-13T12:43:40+02:00    5825    bugfix_uimgt: manage viewInRow url customization in management to fix #5825
+  16348dcd0b    2021-07-13T10:47:51+02:00    5865    bugfix_uimgt: save email attachments before the process to fix #5865
+  7f432fcc36    2021-07-12T12:23:42+02:00    5802    fix_core: dropped user class cache after adding/changing xpdl in a process to Fix #5802
+  875b5a971b    2021-07-12T10:21:48+02:00    5864    improv_sql: removed unused comment and set superclass comment for Map table to Fix #5864
+  41dcd19bff    2021-07-09T16:28:51+02:00    5855    improv_core: changed AlfrescoCategory from system to default permission to Fix #5855
+  0c03f38fc8    2021-07-07T14:43:50+02:00    5871    improv_core: added selectByName attachment api additional method for Beanshell function matching to Fix #5871
+  c32e7c420b    2021-07-07T11:30:16+02:00    5841    fix_core: handled attribute permission in card serialization rest v2 to Fix #5841
+  7241b3776b    2021-07-07T10:23:10+02:00    5849    bugfix_uiadm: fix #5849 Error cannot create/delete system/protected lookup =< AlfrescoCategory >
+  5c370b85b3    2021-07-07T09:51:30+02:00    5859    bugfix_uiadm: fix #5859 Can't open file import/export's row on class
+  add5457ea8    2021-07-05T10:31:45+02:00    5856    fix_core: handled rotation of dwg elements in dwg import to Fix #5856
+  f31412ce4d    2021-07-01T12:00:02+02:00    5801    improv_core: handle import dwg entities in case insensitive mode to Fix #5801
+  d05cab5b8c    2021-06-30T17:14:43+02:00    5854    test_rest: added test for disabled dms category serailization to Fix #5854
+  938ea020ec    2021-06-30T16:51:29+02:00    5823    bugfix_uimgt: don't show error get of null if the attachement is uncategorized to fix #5823
+  5063da483c    2021-06-30T15:41:23+02:00    5853    fix_core: avoid serialization of dms categories in class structure when disabled to Fix #5853
+  496d6a036a    2021-06-29T12:59:32+02:00    5846    test_rest: added test rest for process layout creation/deletion to Fix #5846
+  836153f2bf    2021-06-29T12:02:54+02:00    5775    fix_core: deleting process layout now sets record to null to Fix #5775
+  dc7d8a0823    2021-06-29T10:47:01+02:00    5840    bugfix_uimgt: modify case option to fix #5840
+  ce287fdd35    2021-05-25T15:15:13+02:00    5718    bugfix_uimgt: after changing password the page return to precedent page correctly to fix #5718
+  52fe2a1c1d    2021-06-29T10:11:22+02:00    5835    bugfix_uimgt: show default login module if a session exists to fix #5835
+  9ec66b66c8    2021-06-29T09:26:57+02:00    5838    test_rest: added test rest for card relation sorting to Fix #5838
+  e57c40d8a5    2021-06-28T14:25:34+02:00    5839    fix_sql: patched gis tables to set IdClass default value to Fix #5839
+  2df758887f    2021-06-25T09:31:46+02:00    5827    feat_core: added possibility of sorting for card relations to Fix #5827
+  caeb803d1a    2021-06-23T11:24:20+02:00    5796    bugfix_uimgt: check permissions on dynamic model creation to fix #5796
+  2c9dc929de    2021-06-23T11:16:57+02:00    5824    bugfix_uimgt: show user messages when file download fails to fix #5824
+  37f8f926ca    2021-06-23T10:47:37+02:00    5824    bugfix_uimgt: show user messages when file download fails to fix #5824
+  db38c50771    2021-06-22T15:20:01+02:00    5817    bugfix_rest: serialize attachments with null category when dms cat is disabled Fix #5817
+  c5b2bcc001    2021-06-21T10:30:06+02:00    5811    bugfix_uiadm: fix #5811 Column ordering in class administration module for boolean attributes no longer works
+  94e22e6e65    2021-06-18T15:09:25+02:00    5791    fix_core: fixed block reference xdata for dwg import Fix #5791
+  515df6ff98    2021-06-17T13:08:37+02:00    5804    bugfix_uimgt: show correct category inside grid when is present only one to fix #5804
+  fc0b3fc32b    2021-06-17T13:01:14+02:00    5804    bugfix_uimgt: show correct category inside grid when is present only one to fix #5804
+  10b128affe    2021-06-15T12:13:36+02:00    5771    bugfix_uimgt: detect correct sorting to fix #5771
+  00781c6445    2021-06-15T12:04:54+02:00    5771    bugfix_uimgt: detect correct sorting to fix #5771
+  8f6d7ab5d5    2021-06-15T09:07:51+02:00    5412    bugfix_uimgt: store with correct _type is load to fix #5412
+  763cab6e3e    2021-06-14T15:08:49+02:00    5771    bugfix_uimgt: Add attachments from the document archive doesn't break the UI to fix #5771
+  baa1b20d84    2021-06-14T10:42:07+02:00    5772    bugfix_uimgt: added support for multiline string to fix #5772
+  7a1c87a451    2021-06-11T14:21:00+02:00    5783    bugfix_uimgt: delete console.log to fix #5783
+  d5b9797165    2021-06-11T14:14:30+02:00    5783    bugfix_uimgt: reduce number of domains to fix #5783
+  36e7679f80    2021-06-11T10:34:59+02:00    5763    feat_core: added filtering based on _type for card relations to Fix #5763
+  d7be1e8b18    2021-06-11T09:47:29+02:00    5768    bugfix_uimgt: var forceDefault now operate correct in IE to fix #5768
+  792e4ef6cb    2021-06-11T09:23:21+02:00    5786    improv_core: improved attachments stats in cards/process instances to Fix #5786
+  4b824e5f9f    2021-06-10T15:18:01+02:00    5783    bugfix_uimgt: extended data on relations to fix #5783
+  3628e1c0ac    2021-06-10T12:49:03+02:00    5768    bugfix_uimgt: default login module hidden working to fix #5768
+  0e669d48bf    2021-06-10T12:23:34+02:00    5768    bugfix_uimgt: default login module hidden working to fix #5768
+  852b3f437a    2021-06-09T16:57:05+02:00    5765    bugfix_uimgt: Custom form field set as not obbligatory in grid to fix #5765
+  7301fcad97    2021-06-07T14:48:37+02:00    5761    fix #5761 ifc4 upload
+  f0c09e9153    2021-06-07T11:56:55+02:00    5575    improv_core: improved performances of rls override query building to Fix #5575
+  4406358373    2021-06-03T16:36:19+02:00    5412    bugfix_uimgt: Inline relations have delete and modify relation button to fix #5412
+  7e21bd60a2    2021-05-31T16:11:12+02:00    5741    bugfix_uimgt: disable widget if class is undefined to fix #5741
+  4b90495d45    2021-05-31T14:18:58+02:00    5747    bugfix_uiadm: fix #5747 Current user in relation search filter
+  1c25c2b283    2021-05-31T12:45:44+02:00    5750    bugfix_ws: Fix #5750 fixed rest v2 dms cat id serialization
+  94f42ba881    2021-05-31T10:58:42+02:00    5412    bugfix_uimgt: Inline relations have delete and modify relation button to fix #5412
+  13ed5da1c2    2021-05-31T10:33:07+02:00    5726    bugfix_uimgt: send positionOf on store load in references field to fix #5726
+  796931e1ab    2021-05-31T09:36:41+02:00    5743    bugfix_core: fix #5743, handle comma in email reference header
+  a46b21d0bf    2021-05-28T10:45:24+02:00    5727    bugfix_uiadm: fix #5727 Domain Import/Export template
+  43bfedfd31    2021-05-27T09:43:23+02:00    5738    improv_core: changed config type from env to system for dms default category to Fix #5738
+  76ba2fb7fb    2021-05-26T11:42:03+02:00    5733    bugfix_uimgt: reload menu item after card creation on nav tree root to fix #5733
+  c09c9dffde    2021-05-24T10:20:54+02:00    5521    bugfix_uimgt: activated remote sorting on relations to fix #5521
+  c05347867c    2021-05-20T09:57:49+02:00    5706    bugfix_uimgt: fix #5706 Manage Attachments on closed activity doesn't work if active in the configuration system and disable on the process
+  4978ca1f8d    2021-05-19T15:06:52+02:00    5703    bugfix_uimgt: Attachments - double click on attachments row doesn't open the attachment if user hasn't write permissions on that category to fix #5703
+  b973980496    2021-05-18T11:28:59+02:00    5702    bugfix_uimgt: fix #5702 The category values are filterd, avoiding to show warning messages if the user doesn't have
+  c887c4b79a    2021-05-13T09:53:34+02:00    5672    bugfix_uimgt: add custom fieldsets in custom dms models to fix #5672
+  8ba87a4334    2021-05-12T16:45:19+02:00    5609    bugfix-core: fix #5609 : fixed issue when processing reference values within cql expressions
+  65adcc9870    2021-05-12T14:59:15+02:00    5670    bugfix_uimgt: fix #5670. extent is cleared when new layer is add on map, so the strategy returs true to a new loading
+  ca19001c15    2021-05-12T09:35:02+02:00    5661    bugfix_uiadm: fix #5661 Custom pages on custom routing are not visible from admin module
+  26c08932b8    2021-05-11T12:05:20+02:00    5592    bugfix_uimgt: Fix #5592. added suggested code
+  4313ac71f4    2021-05-07T17:55:19+02:00    5653    bugfix_uimgt: dates are set to blank values instead 1970-01-01 to fix #5653
+  2b253513a1    2021-05-07T12:24:29+02:00    5645    bugfix_uimgt: new card added correctly in IE11 to fix #5645
+  050e55ad48    2021-05-06T11:58:20+02:00    5612    bugfix_uimgt: fix #5612 Correct permission is now read from the
+  0d9930cb1c    2021-05-06T11:28:45+02:00    5640    bugfix_uiadm: fix #5640 new ctx menu doesn't preserve config data
+  f4c2b7243b    2021-05-06T10:27:55+02:00    5635    bugfix_uimgt: fix #5635, removed can_create  condition check on filters
+  481bda3b1f    2021-05-04T16:39:05+02:00    5626    bugfix_uimgmt: fix #5626 Error on attachments preview if name contains []
+  61e0e5e288    2021-05-05T12:31:05+02:00    5630    bugfix_uiadm: fix #5630 Error when add custom menu with name with spaces
+  0e41298305    2021-05-03T10:22:14+02:00    5106    bugfix_core: improved bulk permission processing, fix #5106
+  4bc0e6332a    2021-05-03T11:00:13+02:00    5610    bugfix_uimgmt: fix #5610 closed activity detail break ui
+  c25298b430    2021-04-30T15:47:52+02:00    5596    bugfix_uimgt: move setHtml before add to fix #5596
+  e7f2376d7c    2021-04-29T14:49:37+02:00    5584    bugfix_uiadm: fix #5584 import domain tamplate validation fail
+  d304b36bb7    2021-04-29T14:22:58+02:00    5579    bugfix_uimgt: update language cookie before user preferences save to fix #5579
+  39e2e1773c    2021-04-29T12:43:03+02:00    5581    bugfix_core: fix #5581, fixed issue when processing inactive processes with invalid wf provider
+  84bfb67ef9    2021-04-28T16:44:41+02:00    5573    bugfix_uiadm: fix #5573 view from filter - disable edit card grid in relation tab
+  e3796f6325    2021-04-27T16:23:48+02:00    5561    bugfix_uiadm: add check on custom components loading to get js files only in management module to fix #5561
+  c6bafdfaf6    2021-04-27T16:12:06+02:00    5557    bugfix_uimgt: update base filter behaviour for date columns in store to fix #5557
+  af594e1773    2021-04-27T14:47:45+02:00    5565    bufix_uimgt: fix #5565 adjusting configurations for reference auto value
+  665fa8ab91    2021-04-27T12:24:55+02:00    5559    fix_uiadm: fix #5559 ui admin: handle read only user access
+  a6ae596e90    2021-04-27T10:35:17+02:00    5560    bugfix_uiadm: fix #5560 join views - handle multiple same domains
+  84cb11cdae    2021-04-27T10:34:03+02:00    5371    perf_core: Fix #5371 restoring db now unpacks only once compressed dumps
+  0f015408df    2021-04-27T10:24:06+02:00    4730    fix_core: improved processing of tenant (user) admin, fix #4730
+  f0a5d4a505    2021-04-26T17:43:46+02:00    5554    Fix #5554: scheduler error
+  9eabff31d6    2021-04-26T17:14:25+02:00    5553    bugfix_uimgt: fix #5553 setted hiddable false the action columns in emails grid
+  a5a9824ece    2021-04-26T16:50:58+02:00    5555    Fix #5555. Overlay behavour restored #5006
+  69d766b32a    2021-04-26T15:14:10+02:00    4375    bugfix_core: fix #4375, handle cross tenant references (write access)
+  09e10dbc4f    2021-04-26T12:52:15+02:00    4375    bugfix_core: fix #4375, handle cross tenant references (read access)
+  7ba90bfe59    2021-04-26T11:29:54+02:00    5484    Fix #5484: added calculateHeight on grid show instead of on fieldsetShow
+  6dba3ceba9    2021-04-26T09:46:18+02:00    5534    bugfix_core: Fix #5534 removed double quotes in widget label for all translations get
+  c74db30dab    2021-04-23T23:00:38+02:00    4377    fix #4377 : always renew activity instance id after activity is completed
+  ffd28bbe8c    2021-04-23T17:30:29+02:00    5541    fix #5541 sending the id of the selected cards in filter
+  c95db270b4    2021-04-23T17:23:30+02:00    5546    fix #5546 admin - ui crash on compulsive domain change
+  2c9b22a8f0    2021-04-23T17:21:33+02:00    5535    fix #5535 translation - default value of process activity is not set
+  fdbba2eb43    2021-04-23T15:07:54+02:00    5543    fix #5543 Process header too big
+  1b4cf65de7    2021-04-23T12:13:18+02:00    5530    fix #5530 : fix issue with modular login config patch
+  05a9d1dba3    2021-04-23T12:01:17+02:00    5539    Fix #5539 add translations description for Category and FileName fields
+  085473299f    2021-04-23T11:43:51+02:00    5537    Fix #5537
+  45ae44f943    2021-04-23T11:02:28+02:00    5536    Fix #5536 get object type name description by object type
+  c71d0b50cc    2021-04-23T10:54:20+02:00    5522    Fix #5522 added test core/rest to ensure report JsonObject library inclusion
+  a36040f7f2    2021-04-23T09:22:49+02:00    5533    fix #5533 improve after class deletion actions
+  54cd014939    2021-04-23T09:22:13+02:00    5389    Fix #5389 included widgets and contextmenus in class/process translation tab
+  0b17410bbc    2021-04-22T14:17:13+02:00    5528    fix #5528 Error editing filters with "From selection" relations condition
+  a10faf4bf2    2021-04-22T12:29:27+02:00    5515    Fix #5515
+  899f81a01d    2021-04-22T12:00:51+02:00    5531    fix #5531 : serialize detailed view on view update
+  9209196f6b    2021-04-22T09:53:07+02:00    5504    Fix #5504 improved BigDecimal comparison when checking changed attributes in import
+  14b4d8df2d    2021-04-22T09:53:07+02:00    5504    Fix #5504 improved BigDecimal comparison when checking changed attributes in import
+  220987806d    2021-04-21T14:41:41+02:00    5526    fix #5526 import export - refresh grid view in row on active toggle click
+  0ec8835a85    2021-04-21T14:29:54+02:00    5525    fix #5525 remove processes and join views from import database, ifc, cad import template
+  ae8e0db831    2021-04-21T11:58:57+02:00    5523    fix #5523 admin - authentication modules grid - add grouping and remove checkboxes
+  56aebbdddc    2021-04-21T10:34:09+02:00    5501    fix #5501 missing padding in Notes tab
+  dfb383c10e    2021-04-21T10:19:03+02:00    5520    fix #5520 Admin module - Routing conf
+  1ad2a358a7    2021-04-21T10:14:35+02:00    5519    fix #5519 Admin module - Multitenant message
+  714a0ca210    2021-04-21T10:10:45+02:00    5516    fix #5516 Create export template
+  08ca7348e0    2021-04-21T10:00:39+02:00    5509    fix #5509 Domains tab enabled on simple classes
+  095015c0fe    2021-04-21T09:51:19+02:00    5511    fix #5511 scrolldown on #administration/setup/authentication
+  ccaee08f69    2021-04-21T09:48:54+02:00    5513    fix #5513 Edit values in #administration/email/templates
+  66e8b943d6    2021-04-21T09:40:52+02:00    5507    fix #5507 "Import key attributes" empty on /importexport/gatetemplates/database
+  ecb4fc8760    2021-04-21T09:22:29+02:00    5505    fix #5505 joinviews
+  2574674611    2021-04-20T18:08:02+02:00    5510    fix #5510 default email signature doesn't works
+  74bd679471    2021-04-20T12:40:41+02:00    5502    fix #5502 cannot delete signature
+  ac7136af45    2021-04-20T12:08:00+02:00    5503    fix #5503 check if related stores are already loaded in class
+  08c9ffadb2    2021-04-20T11:46:01+02:00    5183    fix #5183 : improved email expr processing to use client/server card data
+  a2fee334fe    2021-04-20T11:46:01+02:00    5183    fix #5183 : improved email expr processing to use client/server card data
+  35512ca222    2021-04-20T09:22:56+02:00    5465    Fix #5465 improved clone test web to include mandatory field test
+  f68b583bb3    2021-04-19T18:45:06+02:00    5496    fix #5496 Multi-selection is not deselectable
+  960182f72d    2021-04-19T15:45:27+02:00    5481    fix #5481 Import/Export 3.3.2-rc2
+  bcd3787caf    2021-04-19T12:20:59+02:00    5435    fix #5435 Opening last grid card after deleting last card doesn't load inline on Firefox
+  236b44e99f    2021-04-19T11:42:05+02:00    5462    Fix #5462 Added check on existence of upper tab panel
+  995029308d    2021-04-19T11:41:37+02:00    5494    fix #5494 View with join: cannot use attribute named 'description'
+  f5ea1b78c2    2021-04-19T11:24:51+02:00    4899    fix #4899 : improved processing of max length meta
+  671f74af2e    2021-04-19T11:01:32+02:00    5477    fix #5477 navigation trees show disabled domains on administration
+  8579b662ca    2021-04-19T10:52:15+02:00    5483    fix #5483 manange change tenant when user has not enabled multi-tenancy
+  0300b7f859    2021-04-19T10:47:17+02:00    5488    fix #5488 Delete import/export template on #administration/classes/ 3.3.2-rc2
+  372de29d88    2021-04-19T10:39:25+02:00    5300    Fixed #5300 for widget handling
+  b97b052b8e    2021-04-19T10:35:44+02:00    5487    Fix #5487 zoom functionality resetted, and extra checks.
+  ea41e17ec2    2021-04-19T10:32:46+02:00    5486    fix #5486 Disabled action "activate" on class layout - 3.3.2-rc2
+  1817bf33c1    2021-04-19T10:31:52+02:00    5300    Fix #5300 fixed put of only one custom component
+  00c3b3c48e    2021-04-19T09:53:27+02:00    5482    fix #5482 #administration/tasks 3.3.2-rc2
+  9afcbff390    2021-04-19T09:33:09+02:00    5110    fix #5110 Search user in "All Users" list
+  b21c11a9dc    2021-04-16T15:20:54+02:00    5478    fix #5478 Tab Details always enabled
+  6c848f137b    2021-04-16T15:14:00+02:00    4205    fix #4205 FormWidget doesn't handle correctly cql variables and expressions
+  fd56415660    2021-04-16T14:14:20+02:00    5195    Fix #5195 excluded test module from source code
+  cb3b9dd746    2021-04-16T12:09:08+02:00    5461    Fix #5461 removed desktop custom pages in mobile menu serialization when using Default
+  3268479f52    2021-04-16T10:08:29+02:00    5476    Fix #5476 updated test web for import template
+  b19a2ec689    2021-04-16T09:45:11+02:00    5468    fix #5468 Reference attribute filter malfunction on CMDBuild fresh start
+  06f6083342    2021-04-15T17:27:08+02:00    5464    fix #5464 Edit card button not enabled for inline relations inside "Create / Modify Card"
+  2a39c4f218    2021-04-15T15:31:33+02:00    5471    fix #5471 admin navigation trees - skip node creation if source or destination class is disabled
+  6f5eab8394    2021-04-15T15:04:50+02:00    5463    fix #5463 Remove error template from import export template configuration
+  d5af2ab020    2021-04-15T13:13:31+02:00    5462    Revert "Fix #5462 Verify behavior of activity help on card creation"
+  b66cdfb424    2021-04-15T13:07:46+02:00    5462    Fix #5462 Verify behavior of activity help on card creation
+  728fd06aa0    2021-04-15T13:00:51+02:00    5458    fix #5458 Attributes not shown from view from join
+  35576e482c    2021-04-15T11:43:28+02:00    5254    fix #5254  handle parameters for component context menus
+  a8c640adeb    2021-04-14T14:28:14+02:00    5460    Fix #5460 Rename labels of import template statistics
+  a0b0e71022    2021-04-14T10:04:57+02:00    5457    Fix #5457 fixed geoserver layer upload
+  0a8b11fe46    2021-04-13T17:22:30+02:00    5410    Fix #5410 fixed processes ordering by tenant id
+  320145de58    2021-04-13T17:22:30+02:00    5410    Fix #5410 fixed processes ordering by tenant id
+  44b3e7d9d9    2021-04-13T16:35:09+02:00    5456    Fix #5456 changed defaultExportTemplate metadata serialization
+  c7e0c0fd83    2021-04-13T10:28:07+02:00    5452    Fix #5452
+  c243eaf9a7    2021-04-12T16:00:32+02:00    5437    Fix #5437
+  59c8b51305    2021-04-12T13:07:16+02:00    4775    fix #4775 : add `active` attr to gis geoserver layer
+  d0590aa58d    2021-04-12T11:51:37+02:00    5445    Fix #5445 added basic test core for export error when attribute is disabled
+  b75dae3a2a    2021-04-12T11:05:31+02:00    5372    fix #5372 : handle domain attrs in join view
+  700b020c48    2021-04-12T10:49:20+02:00    5433    fix #5433 Import/export database - hide password field
+  e94c6d3cae    2021-04-12T10:06:38+02:00    5444    Fix #5444 fail export if template contains disaled attributes
+  993b05cd39    2021-04-12T10:06:38+02:00    5444    Fix #5444 fail export if template contains disaled attributes
+  3fe02cfac0    2021-04-12T09:31:19+02:00    5442    fix #5442 Wrong attributes display in join views
+  63abfe6b05    2021-04-12T09:24:14+02:00    5443    fix #5443 createModifyCard throws error if reference is not set
+  0e1926e18d    2021-04-08T15:48:59+02:00    5431    Fix #5431 avoid serialization error in widget rest v2
+  e3e048c2d9    2021-04-08T15:48:59+02:00    5431    Fix #5431 avoid serialization error in widget rest v2
+  dcc3b7c51a    2021-04-08T12:25:50+02:00    5427    Fix #5427. on refresh geovalues are not loaded in particular case
+  552494e48f    2021-04-08T10:53:32+02:00    5379    Fix #5379 restored missing geo style rules params
+  5c11eb7de5    2021-04-07T17:59:22+02:00    5424    Fix #5424 added new scheduler config
+  4a6733315c    2021-04-07T15:37:55+02:00    5419    fix #5419 remove card load to get its description
+  5eb8a233f3    2021-04-07T09:54:45+02:00    5421    fix #5421 domain master detail label visibility
+  e4ec5f661d    2021-04-07T09:22:48+02:00    5420    Fix #5420
+  21fa9e655c    2021-04-06T14:43:19+02:00    5416    fix #5416 Add Attachment doesn't work when only one cat value is used
+  e960c96e16    2021-04-06T12:31:30+02:00    5182    Fix #5182
+  8acc2bc4a3    2021-04-02T12:47:06+02:00    5407    Fix #5407 attachment counter now handles dms permissions
+  ddb590f73f    2021-04-02T11:51:34+02:00    5413    fix #5413 dashboard - minor fixes
+  06ab26b85a    2021-04-02T10:54:37+02:00    5189    Fix #5189 added attachment visibility test for dms rest tests
+  edb9be7d06    2021-04-01T16:58:15+02:00    4990    fix #4990 cannot reuse filters-launcher cmp
+  21cec28921    2021-04-01T16:26:42+02:00    5142    fix #5142 : add per-user access control to gate ws
+  edbd1b7f02    2021-04-01T16:11:19+02:00    5403    fix #5403 widget onTargetFormOpen not fired after page refresh
+  ab90d85254    2021-04-01T14:58:03+02:00    5410    fix #5410 fixed order by Tenant field in grids
+  bb0fb1af58    2021-04-01T12:32:40+02:00    5409    Fix #5409
+  e4bf7fc8a1    2021-04-01T11:57:34+02:00    5359    Fix #5359 added BeforeClass annotation support for test runner
+  36cb8a4615    2021-04-01T10:54:22+02:00    4854    fix #4854 Add the possibility to sort grants list by mode
+  36d21c2c08    2021-04-01T10:25:23+02:00    5406    Fix #5406 fixed calendar tests to fit new specs
+  22ef1258bd    2021-04-01T09:47:35+02:00    5397    Fix #5397 fixed sorter handling when attachment filter is applied
+  fbd8266e7a    2021-03-31T16:56:13+02:00    5402    fix #5402 Firefox error on saving attribute twice
+  b3a5fb2005    2021-03-31T15:52:44+02:00    5382    Fix #5382 handled cal trigger code in endpoint and translations
+  59237a07d7    2021-03-31T15:24:55+02:00    5382    Fix #5382 added code handling and translation handling patch for cal trigger
+  f2aed86d30    2021-03-31T15:03:56+02:00    5399    fix #5399 delete button of preview icon refactor
+  477df275c2    2021-03-31T15:02:27+02:00    5398    fix #5398 administration - gis and relation navtree circular domains
+  12d27c7e90    2021-03-31T14:39:21+02:00    5171    Fix #5171 add set value functions for reference and lookup in set value api
+  d242866863    2021-03-30T16:28:32+02:00    5363    Fix #5363. removed disabled classes from domain
+  66febb160b    2021-03-30T12:51:51+02:00    5386    Fix #5386 add ignore custom fields features in getFormField
+  688b08c2eb    2021-03-30T12:17:52+02:00    5387    fix #5387 In custom components and custom page, files fieldset shuold be visble in view mode
+  e1d6ec0b4f    2021-03-30T11:58:49+02:00    5253    FIX #5253 Enable/Disable button for dashboard does not work
+  90a5414721    2021-03-30T11:22:15+02:00    5385    Fix #5385 added test for mandatory and active checkbox
+  39e348e506    2021-03-30T09:39:31+02:00    5384    Fix #5384 changed cron of dashboard load to run weekly on sunday
+  97a49fb4fe    2021-03-29T18:11:08+02:00    5378    Fix #5378 add check if response.data is not null
+  11bf183329    2021-03-29T17:27:29+02:00    5383    fix #5383 Administration - Menu nav tree activr toggle button error
+  20f40ea45d    2021-03-29T17:11:15+02:00    5356    fix #5356 : cal event descr/content translation
+  4c56753fb5    2021-03-29T16:42:01+02:00    5220    Fix #5220 set remoteSort after store first load
+  23bd4e80e9    2021-03-29T16:14:48+02:00    5313    fix #5313 : issue in `_cm3_translation_lookup_get(bigint)`
+  332cb48bc9    2021-03-29T14:23:29+02:00    5120    fix #5120 Regexp unexpected identifier on Edge and Firefox
+  fa43f1d7dd    2021-03-29T11:51:25+02:00    5366    Removed the save action for the dmsFilters only. Added different visibility for the filter-launcer. Fix #5366
+  4430899081    2021-03-29T10:30:24+02:00    5266    fix #5266 Strange behaviour while configuring group users
+  c60cc43b87    2021-03-26T17:25:53+01:00    5375    Fix #5375 improved administration history dashboard
+  9ac11911f1    2021-03-26T15:23:29+01:00    5361    fix #5361 : fixed issue when processing cad import context filter
+  918f877f05    2021-03-26T13:29:52+01:00    5376    fix #5376 Error downloading report in CSV format
+  b1b733b0aa    2021-03-26T09:49:38+01:00    5368    fix #5368 Incoherent behaviour when deactivating GIS layers visibility
+  99947aaf01    2021-03-25T17:52:42+01:00    5298    fix #5298 Disable inline attachments option in the properties of a process class
+  80faad1649    2021-03-25T11:56:54+01:00    5351    Fix #5351 updated dms filtering to query common dms model
+  ff7a1a43c7    2021-03-25T10:11:35+01:00    5159    Fix #5159 Views from filter - Add card doesn't work
+  663ea711d9    2021-03-24T17:53:55+01:00    5354    Fix #5354, default min is zero. if there is a minor value that is taken ad minimum. otherwise is zero. Not using minimum value
+  f58ee3ff8e    2021-03-24T17:24:30+01:00    3501    Fix #3501 add orderIndex property for all columns in getcolumns function
+  fb027e43e5    2021-03-24T16:21:27+01:00    5350    Fix #5350 removed disabled dms categories in dms permission serialization
+  affc67e8c1    2021-03-24T15:48:26+01:00    5293    fix #5293 and implement #5234 Management - attachments permissions
+  1b537caa1b    2021-03-24T12:34:44+01:00    5306    fix #5306 Attachment filter only with metadata filter returned as not valid
+  9926f1a25d    2021-03-24T12:27:13+01:00    5342    Fix #5342, relation created when card created from master detail even if refernce field is not present
+  118bf88502    2021-03-24T11:33:18+01:00    5299    Fix #5299
+  a1f9abd7cd    2021-03-24T10:16:54+01:00    5341    Fix #5341 chenged csv encoding default value
+  bbc8e9e41e    2021-03-24T09:35:25+01:00    5345    Fix #5345
+  7e6b9aac8d    2021-03-23T17:41:23+01:00    5323    fix #5323 allow multiple classes as leafs
+  736e2a1700    2021-03-23T16:51:57+01:00    5347    Fix #5347 disabled reports are now shown in admin module
+  39ccce84ba    2021-03-23T16:04:43+01:00    5308    fix #5308 : fixed minor cad import issues
+  c6bf2c4183    2021-03-23T15:56:59+01:00    5337    fix #5337 Admin module: UM position values are not translated
+  8dcf3c8e8f    2021-03-23T15:41:58+01:00    5329    Fix #5329
+  d54a6f9c34    2021-03-23T15:29:50+01:00    5338    fix #5338 Admin module: create attribute form
+  9d36bfb780    2021-03-23T11:41:15+01:00    5204    fix #5204 upadted filter composition
+  60396a0d47    2021-03-23T11:18:30+01:00    5336    Fix #5336 promoted caches to system to avoid hourly refresh
+  6f0c602373    2021-03-23T10:55:20+01:00    5331    fix #5331 Remove csv separator from admin module
+  29c82ccf4f    2021-03-23T09:54:03+01:00    5332    Fix #5332 accept req type in preload service
+  9debc380c3    2021-03-22T16:50:31+01:00    5321    Fix #5321 added session refresh when active requests on session cleanup
+  2edad4301e    2021-03-22T11:40:25+01:00    5323    fix #5323 wrong navigation tree behavior
+  d5a6679886    2021-03-19T15:40:21+01:00    5317    fix #5317 export #administration/localizations/localization
+  0cd78c01d3    2021-03-19T15:14:24+01:00    5316    fix #5316 #4887 Incorrect error message for invalid name or code input in administration
+  2a476084f2    2021-03-19T15:06:18+01:00    5316    fix #5316 #4887 Incorrect error message for invalid name or code input in administration
+  fdd7ea337b    2021-03-19T13:01:37+01:00    5315    fix #5315 Import/Export template "empty attribute list" message
+  ed0826ac70    2021-03-19T12:42:02+01:00    5314    fix #5314  Import/Export template - "clone" behaviour
+  5007f87770    2021-03-19T11:29:52+01:00    5324    Fix #5324 add CMDBuildUI before require of custom compontents
+  6af97475d8    2021-03-18T17:31:18+01:00    5311    fix #5311 : use composite format for default export template config (same as import template config)
+  d5cb50d838    2021-03-18T17:03:03+01:00    5207    Fix #5207 in getFormFields function add merge for have field without referencing with model field
+  6a92d481d6    2021-03-18T10:29:55+01:00    5301    fix #5301 : email signature translation
+  ff0f9c1111    2021-03-17T14:50:54+01:00    5014    Fix #5014. Cql for masterdetail domains was ignored. added to the advanced filter
+  cbdebd9f89    2021-03-17T12:31:11+01:00    5296    Fix #5296 added endpoint to force system preload
+  26d619990f    2021-03-17T11:38:31+01:00    5294    Fix #5294 read can_create
+  1c7554b19c    2021-03-17T09:58:22+01:00    5281    fix #5281 Ok button in admin view on filter does nothing
+  8f0b05efed    2021-03-16T14:07:55+01:00    5286    Fix #5286 completed preload translations endpoint
+  cc6ae8f778    2021-03-16T11:01:14+01:00    5267    Fix #5267 Calendar widget values disappear
+  aec9a55665    2021-03-15T16:57:17+01:00    5261    fix #5261 Cannot configure job for import DWG (GIS) from URL
+  76b4bf3fb4    2021-03-15T11:11:53+01:00    5270    fix #5270 select record after creation on add/edit relation popup
+  c18f246b73    2021-03-15T10:56:23+01:00    5250    Fix #5250 added widgetId where missing in widget data
+  09c16525a4    2021-03-15T10:56:20+01:00    5278    Fix #5278. Introduced after #5176
+  5b9f206aa3    2021-03-15T10:08:08+01:00    5243    fix #5243 N:N domain can't add inverse relation
+  8cc5f1a0ef    2021-03-15T09:50:38+01:00    5198    Fix #5198 report improvements
+  6b62fa3fa0    2021-03-15T09:50:38+01:00    5198    Fix #5198 report improvements
+  f5c2c06221    2021-03-12T15:14:08+01:00    5258    fix #5258 Database import are not shown in the task manager
+  4cdc2c2943    2021-03-11T16:23:51+01:00    5265    Fix #5265 removed dmsCategory description from class serialization
+  a979acc4aa    2021-03-11T15:02:53+01:00    5260    fix #5260 : add filter on Activity column in process ws
+  bd4688c950    2021-03-10T11:21:59+01:00    5236    Fix #5236
+  c120c9c5ab    2021-03-10T10:17:31+01:00    5247    Fix #5247
+  d9c532ec0c    2021-03-09T17:30:51+01:00    5242    fix #5242 unable to clone dwg template from deil window
+  1760202724    2021-03-09T15:50:50+01:00    5239    Fix #5239 sync store only if not in async save mode
+  71da962646    2021-03-09T15:37:53+01:00    5241    Fix #5241 add itemDescription on attachment widget
+  5e0ff0e22f    2021-03-09T14:45:18+01:00    5235    fix #5235 Generic Errors on "Groups and permissions
+  ca877e07bb    2021-03-08T15:17:22+01:00    5230    Fix #5230
+  6236964015    2021-03-08T14:42:57+01:00    5188    Fix #5188 handled attachment category permission
+  6a09faffbf    2021-03-08T12:52:12+01:00    5223    Fix #5223. Removed detailed=true when making events request
+  7b6a34143d    2021-03-08T12:27:28+01:00    5201    fix #5201 File whose name contains [ ] gives bad request on download try
+  da52925428    2021-03-05T17:44:49+01:00    5222    Fix #5222 improved non detailed response of scheduler events
+  848228811e    2021-03-05T11:47:06+01:00    5179    fix #5179 Empty routing behaviour in admin module
+  f21c689ff7    2021-03-05T11:37:50+01:00    5202    fix #5202 Cannot translate geo-attribute from administration management
+  3f867e1735    2021-03-05T10:32:03+01:00    5185    fix #5185 #5200 Import DWG
+  f3da7e3254    2021-03-04T18:13:15+01:00    5148    fix #5148 Error advancing process when in superclass
+  ed797bff22    2021-03-04T17:55:01+01:00    5206    fix #5206 Domain name not visible anymore when editing reference attribute
+  691259e294    2021-03-04T17:22:16+01:00    5194    Fix #5194 added support for external dumps with env folder
+  7c75bbf438    2021-03-04T15:08:15+01:00    5208    fix #5208 Default Import / export combos are not updated after add or remove template from imports/export tab
+  c122d21b72    2021-03-04T10:42:11+01:00    5203    fix #5203 System config decimal separator validation can't be blank
+  aba26a578d    2021-03-03T14:34:08+01:00    5191    Fix #5191 fixed CreateModifyCard widget serialization in rest v2
+  bc53d8171a    2021-03-03T11:50:26+01:00    5164    fix #5164 : fixed issue in join view query, when processing out of order table join
+  9b0734db19    2021-03-03T11:27:34+01:00    5196    fix #5196 Gis navigation should manage view mode
+  5b50d5547a    2021-03-03T11:27:34+01:00    5196    fix #5196 Gis navigation should manage view mode
+  f375ef4bc9    2021-03-03T09:52:52+01:00    5133    fix #5133 : add auto context filter for cad import
+  f54dad0bc3    2021-03-02T17:51:44+01:00    5193    fix #5193 Grant filter icon is higlighted also if column privileges are in default state
+  a9386d1807    2021-03-02T10:39:50+01:00    4986    Fix #4986, tests made
+  419cf370e4    2021-03-02T10:44:13+01:00    3688    Fix #3688. Description updates are reflected in the tree
+  1dd3ed9bd7    2021-03-02T10:39:50+01:00    4986    Fix #4986, tests made
+  bfbac1209d    2021-03-02T09:36:02+01:00    5125    fix #5125 Nav. Tree - updating the menu after creating a card
+  a861ed6163    2021-03-01T17:24:48+01:00    5180    Fix #5180 Polygon geometry not shown on GIS map
+  141211c392    2021-03-01T16:49:25+01:00    4988    Fix #4988 added composite filter validation
+  42cab527b9    2021-03-01T16:42:26+01:00    5176    Fix #5176 Enable Contextual menu button item on maps
+  1404724eb8    2021-03-01T11:05:44+01:00    5161    fix #5161 roles are not shown translated
+  598705d0b2    2021-03-01T10:56:56+01:00    4964    fix #4964 : add expression for localized lookup descriptions in email template
+  21b7625fe3    2021-02-26T17:33:22+01:00    5158    Fix #5158 added auto cleanup of attachments missing on dms
+  dfd7009fe8    2021-03-01T09:40:05+01:00    4983    fix #4983 remove load mask affter the loading of the first page
+  007a2cfa2d    2021-02-26T17:33:22+01:00    5158    Fix #5158 added auto cleanup of attachments missing on dms
+  5e390d0010    2021-02-26T12:41:10+01:00    5156    Fix #5156 updated testContextProvider to accept system configs
+  765d4a6402    2021-02-26T09:51:38+01:00    5165    Fix #5165 add empty fn for addConditionalVisibilityRules and addAutoValueRules
+  ece5e8b066    2021-02-26T09:39:19+01:00    5121    fix #5121 'Default template for data import' config makes the template unselectable
+  ad19db2dff    2021-02-26T09:39:19+01:00    5121    fix #5121 'Default template for data import' config makes the template unselectable
+  69266f9e76    2021-02-25T17:37:34+01:00    5160    fix #5160 Administration lookup search is not working
+  3142c979f2    2021-02-25T17:23:55+01:00    5155    fix #5155 Changing session timeout breaks interface
+  b97b024106    2021-02-25T17:23:55+01:00    5155    fix #5155 Changing session timeout breaks interface
+  4a6e3976c6    2021-02-25T16:58:34+01:00    5157    fix #5157 Import/export erase Class/Domain when changing applyon
+  df3d9ad043    2021-02-25T12:36:18+01:00    5162    fix #5162 the descriptions of the objects under administration should not be considered valid if they contain only spaces
+  12e0f35e95    2021-02-24T17:58:54+01:00    5152    fix #5152 Import management combo crash ui
+  981354a98b    2021-02-24T16:20:21+01:00    5150    Fix #5150 translated lookup value in schema print
+  439e7da145    2021-02-24T15:50:13+01:00    5149    fix #5149  Generic error when deleting class
+  73cd4f5fd0    2021-02-24T14:38:30+01:00    5088    fix #5088 moving across classes is slow
+  96ba5115cc    2021-02-24T10:27:10+01:00    5003    Fix #5003 added filter support for geoAttributes get center
+  e05acb80fb    2021-02-24T10:27:10+01:00    5003    Fix #5003 added filter support for geoAttributes get center
+  7ea1c1bf89    2021-02-23T12:54:51+01:00    5118    Fix #5118 fixed start new workflow with soap updateWorkflow
+  98e986e377    2021-02-23T12:54:51+01:00    5118    Fix #5118 fixed start new workflow with soap updateWorkflow
+  60a2d25d98    2021-02-23T12:34:51+01:00    5128    Fix #5128 added support for different APM in soap attribute list serialization
+  3b82684894    2021-02-23T12:34:51+01:00    5128    Fix #5128 added support for different APM in soap attribute list serialization
+  2b1666796f    2021-02-23T12:20:12+01:00    5129    Fix #5129 add filter for types by domain in add and edit relations
+  b60628df8c    2021-02-23T09:57:10+01:00    5131    Fix #5131 RelationGraph - translation
+  d504de56d8    2021-02-23T09:33:14+01:00    5146    fix #5146 class type combo validation
+  8046a41116    2021-02-23T09:33:14+01:00    5146    fix #5146 class type combo validation
+  f456252866    2021-02-22T15:56:06+01:00    5138    Added language header in rest preload function to Fix #5138
+  b2ee75bde2    2021-02-22T12:40:53+01:00    5046    fix #5046 : sanitize notes/metadata of card attachments
+  72ab20e7d9    2021-02-19T16:22:12+01:00    5135    fix #5135 Wrong geo-attribute creation on superclasses
+  7e642eeabe    2021-02-19T10:36:49+01:00    5121    fix #5121 "Default template for data import" config makes the template unselectable
+  f015d7a5f0    2021-02-18T11:36:13+01:00    5013    fix #5046, fix #5013 : mixed html security improvements, allow tables, add config `org.cmdbuild.email.defaultTextContentSecurity` and `org.cmdbuild.core.defaultTextContentSecurity` to enable html security on email content and card notes
+  cba8ae3542    2021-02-18T11:36:13+01:00    5013    fix #5046, fix #5013 : mixed html security improvements, allow tables, add config `org.cmdbuild.email.defaultTextContentSecurity` and `org.cmdbuild.core.defaultTextContentSecurity` to enable html security on email content and card notes
+  ac8cfe632c    2021-02-18T09:48:05+01:00    5119    fix #5119 Join view - loader stuck after save if attribute grouping contain space
+  cf4fe1e484    2021-02-17T15:28:21+01:00    5114    Fix #5114 add _cmdbuildFields in render form and fix generate form in manage event
+  53bcf1dfa3    2021-02-17T12:06:02+01:00    5113    fix #5113 Bug in menu folder translation saving
+  f30310884b    2021-02-16T15:54:52+01:00    5107    Fix #5107 set attributes list in get attributes promise response
+  d24aaec65d    2021-02-16T14:58:32+01:00    5047    Fix #5047 change reload to load for fix extjs issue EXTJS-23373
+  f2a573da32    2021-02-16T14:26:47+01:00    5110    fix #5110 Search user in "All Users" list
+  7b5678ca36    2021-02-16T11:48:50+01:00    5101    Fix #5101 added fulltext attachment search support for SharePoint
+  544cf49bcd    2021-02-15T14:44:11+01:00    5008    Fix #5008 remove themerowheight to calculate view size
+  a73442dd23    2021-02-15T10:54:38+01:00    5098    fix #5098 Admin module: when creating reference attribute all domains are selectable
+  f1ca1b052b    2021-02-15T10:14:21+01:00    5100    Fix #5100. In applyFilter now is inserts the baseFilter
+  8fef0b35c8    2021-02-12T12:41:53+01:00    5081    fix #5081 error when attaching a file to a process instance
+  d20fe74609    2021-02-11T12:20:25+01:00    5071    fix #5071 When typing in view with filter atrtibute dropdown in administration fields gets reset
+  c54c018376    2021-02-11T12:20:25+01:00    5071    fix #5071 When typing in view with filter atrtibute dropdown in administration fields gets reset
+  811e3c15ea    2021-02-11T12:17:19+01:00    5089    Fix #5089 GIS: modificare ordine layer quando si va in modifica
+  ead37cb8c7    2021-02-11T09:31:04+01:00    5066    Fix #5066 reversed templates for etl delete processing
+  2a2feaea0f    2021-02-10T12:25:44+01:00    5080    Fix #5080 updated report db constraint in report improvement patch to consider only status A
+  e121f22a49    2021-02-09T17:06:25+01:00    5053    fix #5053 Translation on create email
+  46f2ecb77f    2021-02-09T10:39:42+01:00    5020    fix #5020 As in administration show `View from join` numeric step
+  c628a61555    2021-02-09T10:39:42+01:00    5020    fix #5020 As in administration show `View from join` numeric step
+  a526c70e32    2021-02-09T09:38:19+01:00    5030    fix #5030 #5062 task import database + validation of errorEmailTemplate
+  7c432a0b3f    2021-02-09T09:38:19+01:00    5030    fix #5030 #5062 task import database + validation of errorEmailTemplate
+  66ec09c2aa    2021-02-08T17:01:41+01:00    5023    fix #5023 cross site scripting issues
+  1fa085169f    2021-02-08T16:49:34+01:00    5040    Fix #5040 added permission for relation graph
+  b1af254ef1    2021-02-08T15:49:18+01:00    5011    Fix #5011 ensure visible now works as expected
+  5ec35b92f3    2021-02-08T11:56:45+01:00    5055    fix #5055 Cannot set multitenant mode on processes
+  ea62959543    2021-02-08T09:31:34+01:00    5021    Fix #5021 added domainTrees endpoint to invert navtree directions
+  c461e66d93    2021-02-05T15:50:44+01:00    5049    fix #5049 fixed regexp used to display tousands separator
+  6e29e8ad0b    2021-02-05T11:36:49+01:00    5032    Fix #5032 improved domain source and target check functions
+  2195b5cf27    2021-02-05T11:01:30+01:00    5031    fix #5031 Add task in task manager doesn't have all possible options
+  1a5c5396ae    2021-02-05T10:16:50+01:00    5045    Fix #5045 fixed total cound in view with join card list
+  1e520f4119    2021-02-05T09:53:04+01:00    5035    Fix #5035 added test rest for view with join sorting and fulltext search
+  644935619a    2021-02-04T16:40:30+01:00    5017    fix #5017 Open import/export template from class
+  ad6657b378    2021-02-04T16:03:21+01:00    5039    fix #5039 Cannot configure behavior on missing records for import DWG
+  6b2c7340d3    2021-02-03T12:11:53+00:00    5023    fix #5023 resolved Cross Site Scripting issue in attachments grid
+  4f52cb3323    2021-02-03T13:11:53+01:00    5023    fix #5023 resolved Cross Site Scripting issue in attachments grid
+  3c84617e60    2021-02-03T12:33:37+01:00    4291    Fix #4291 fixed domain description translation in card report
+  dfae08e020    2021-02-02T18:23:58+01:00    5010    fix #5010 Expand view record is slow
+  6033b86aed    2021-02-02T17:38:09+01:00    5005    fix #5005 `Select/Deselect all` in tenant dropdown issue
+  edb9af8cd5    2021-02-01T17:00:58+01:00    4999    Fix #4999 updated release script to remove UI docs
+  103b023f5d    2021-02-01T17:00:58+01:00    4999    Fix #4999 updated release script to remove UI docs
+  b37a194d25    2021-02-01T16:45:50+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  2d4ca05fdd    2021-02-01T16:45:50+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  e081061aaa    2021-02-01T16:25:37+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  ea3977d910    2021-02-01T16:25:37+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  fe0bb45c2b    2021-02-01T12:38:52+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  fc99f6af6d    2021-02-01T12:38:52+01:00    4991    fix #4991 Dasbhoard pop-up not working properly
+  fbd1a3fbf7    2021-02-01T11:31:05+01:00    5001    Fix #5001 fixed filtering on navtree items
+  ae43ec8da3    2021-02-01T11:31:05+01:00    5001    Fix #5001 fixed filtering on navtree items
+  6a4a737aec    2021-01-29T14:59:13+01:00    4998    Fix #4998 fixed attribute filter handling for geovalues
+  5d71187aed    2021-01-29T14:59:13+01:00    4998    Fix #4998 fixed attribute filter handling for geovalues
+  1643e13f0c    2021-01-29T12:30:32+01:00    4987    fix #4987 Menu is not ordered correctly anymore
+  33cc832070    2021-01-29T10:22:42+01:00    4992    fix #4992 User activation botton not working in administration
+  b71e59a62b    2021-01-27T14:59:28+01:00    4977    Fix #4977 restored missing fk triggers
+  2255ed8ecc    2021-01-27T10:07:40+01:00    4976    Fix #4976 etl templates search now handles fileFormat based filter
+  27dd273028    2021-01-26T14:37:26+01:00    4950    Fix #4950 update _AttributeMetadata on attribute deletion
+  4e1c4d02af    2021-01-26T11:55:03+01:00    4946    Fix #4946 print csv grid no longer uses thousand separator for numeric fields
+  6cb4a0fcbf    2021-01-26T11:44:06+01:00    4953    fix #4953 : correct gis surface area from cad for gis import, in attr `area`
+  6d01b091b4    2021-01-26T11:35:01+01:00    4975    fix #4975 Join view - wrong attributes in case of domains with the same code of a class
+  a4e25284bb    2021-01-26T11:31:34+01:00    4974    fix #4974 administration import gis template wrong validation
+  d6696bd968    2021-01-26T11:19:19+01:00    4943    fix #4943 : fixed issue with relative location gis import, when reference points to superclass
+  4afa2b16bc    2021-01-26T09:39:38+01:00    4968    fix #4968 : disable cad hatch parsing (not used anyway)
+
+# list of issues fixed since 2021-09-14 (regardless of release)
+
+# commit             date                 issue      message
+
+  c32e3d0ec5    2021-10-13T15:49:36+02:00    6287    bugfix_rest: bugfix in null serialization of idcardcqlselector rest v2 to Fix #6287
+  097c23058b    2021-10-12T14:58:18+02:00    6226    bugfix_uimgt: fix #6226 Relation - Timestamp not parsed
+  e53c1c23f8    2021-10-12T11:24:25+02:00    6226    bugfix_uimgt: fix #6226 Relation - Timestamp not parsed
+  c3fd392762    2021-09-29T17:01:43+02:00    6210    feature_core: add import translation feature, fix #6210
+  57c57ff23d    2021-09-27T14:32:45+02:00    6200    bugfix_core: minor fix for context menu config handling to Fix #6200
+  b337c4e9ed    2021-09-16T12:57:50+02:00    6134    bugfix_uiadm: fix #6134 After configuring tenant in admin UI breaks
+  0d164bf56c    2021-09-15T16:50:37+02:00    6037    bugfix_core: improved performance of fulltext filter query, fix #6037
+

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.6.0
+Built-By: davide
+Build-Jdk: 11.0.5
+Implementation-Title: cmdbuild
+Implementation-Version: 3.3.2-w
+Implementation-Vendor-Id: org.cmdbuild
+Implementation-URL: http://www.cmdbuild.org/cmdbuild
+CMDBuild-Version: 3.3.2-w
+Implementation-Changeset: b784579dfebdeb4d415ea902c598d24fa55f3162
+Main-Class: org.cmdbuild.webapp.cli.Main
+
